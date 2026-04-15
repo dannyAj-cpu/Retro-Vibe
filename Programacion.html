@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Programación - RetroVibe FM</title>
+
+    <!-- Fuentes retro -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            background: radial-gradient(circle at top, #2b1055, #000);
+            color: #fff;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff00cc, #3333ff);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 0 20px #ff00cc;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-family: 'Press Start 2P', cursive;
+            text-shadow: 0 0 10px #ff00cc, 0 0 20px #00ffff;
+        }
+
+        header p {
+            color: #00ffff;
+            margin-top: 10px;
+        }
+
+        /* BOTÓN VOLVER */
+        .volver {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 20px;
+            background: transparent;
+            border: 2px solid #00ffff;
+            color: #00ffff;
+            font-family: 'Orbitron';
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            width: 220px;
+            transition: 0.3s;
+        }
+
+        .volver:hover {
+            background: #ff00cc;
+            color: #fff;
+            box-shadow: 0 0 15px #ff00cc;
+        }
+
+        table {
+            width: 85%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background: rgba(0,0,0,0.6);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background: #ff00cc;
+            color: white;
+            text-shadow: 0 0 10px #fff;
+        }
+
+        td {
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        tr:hover {
+            background: rgba(0, 255, 255, 0.2);
+            transition: 0.3s;
+        }
+
+        td, th {
+            text-shadow: 0 0 5px rgba(255,255,255,0.5);
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📻 Programación</h1>
+    <p>Descubre nuestra agenda de programas diarios</p>
+</header>
+
+<!-- 🔥 CORREGIDO -->
+<a href="index.html">
+    <button class="volver">⬅ Volver al Inicio</button>
+</a>
+
+<table>
+    <tr>
+        <th>Hora</th>
+        <th>Programa</th>
+        <th>Descripción</th>
+    </tr>
+    <tr>
+        <td>8:00 AM</td>
+        <td>Despertando con Baladas</td>
+        <td>Clásicos románticos para iniciar el día.</td>
+    </tr>
+    <tr>
+        <td>2:00 PM</td>
+        <td>Retro Hits</td>
+        <td>Éxitos de los 80's y 90's.</td>
+    </tr>
+    <tr>
+        <td>8:00 PM</td>
+        <td>Entrevistas Exclusivas</td>
+        <td>Charlas con artistas invitados.</td>
+    </tr>
+    <tr>
+        <td>10:00 PM</td>
+        <td>Noches de José José</td>
+        <td>Especial dedicado al Príncipe de la Canción.</td>
+    </tr>
+</table>
+
+</body>
+</html>

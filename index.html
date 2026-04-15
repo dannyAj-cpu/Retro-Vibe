@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>RetroVibe FM</title>
+
+    <!-- Fuente retro -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            background: radial-gradient(circle at top, #2b1055, #000);
+            color: #fff;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff00cc, #3333ff);
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 0 20px #ff00cc;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-family: 'Press Start 2P', cursive;
+            text-shadow: 0 0 10px #ff00cc, 0 0 20px #00ffff;
+        }
+
+        header h2 {
+            margin-top: 10px;
+            font-style: italic;
+            color: #00ffff;
+        }
+
+        nav {
+            background: #000;
+            padding: 12px;
+            text-align: center;
+            border-bottom: 2px solid #ff00cc;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #00ffff;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff00cc;
+            text-shadow: 0 0 10px #ff00cc;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        section {
+            flex: 3;
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #00ffff;
+        }
+
+        aside {
+            flex: 1;
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #ff00cc;
+        }
+
+        .botones {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .botones button {
+            background: transparent;
+            border: 2px solid #00ffff;
+            color: #00ffff;
+            padding: 12px 18px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Orbitron';
+            transition: 0.3s;
+        }
+
+        .botones button:hover {
+            background: #ff00cc;
+            color: #fff;
+            box-shadow: 0 0 15px #ff00cc;
+        }
+
+        img {
+            border-radius: 10px;
+            margin: 10px;
+            transition: 0.3s;
+            box-shadow: 0 0 10px #000;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        iframe {
+            box-shadow: 0 0 15px #ff00cc;
+        }
+
+        footer {
+            background: #000;
+            color: #00ffff;
+            text-align: center;
+            padding: 15px;
+            border-top: 2px solid #ff00cc;
+        }
+
+        footer nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        footer nav a:hover {
+            color: #ff00cc;
+            text-shadow: 0 0 10px #ff00cc;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎶 RetroVibe FM 🎶</h1>
+    <h2>"La música que alimenta tu alma"</h2>
+</header>
+
+<nav>
+    <!-- 🔥 CORREGIDO -->
+    <a href="index.html">Inicio</a>
+    <a href="Programacion.html">Programación</a>
+    <a href="Top-Hits.html">Top Hits</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<main>
+    <section>
+
+        <div class="botones">
+            <button>▶ En Vivo</button>
+            <button>🎤 Entrevistas</button>
+            <button>📻 Podcast</button>
+        </div>
+
+        <h3>Transmisión en Vivo</h3>
+        <p>Escucha ahora la mejor selección de música romántica y baladas clásicas.</p>
+
+        <h3>Playlist en Spotify</h3>
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/0sKlV58cODrjxGFOyf9IXY"
+            width="100%" height="352" frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+        </iframe>
+
+        <h3>Albums Destacados</h3>
+        <img src="Rock 80.jpg" width="200" height="200">
+        <img src="Mon Laferte.jpg" width="200" height="200">
+        <img src="Los 80s.jpg" width="200" height="200">
+        <img src="Album a.jpg" width="200" height="200">
+
+    </section>
+
+    <aside>
+        <h3>📻 Próximos Programas</h3>
+        <p>🎙 Entrevista exclusiva con Mon Laferte - 8 PM</p>
+        <p>🎶 Especial José José - 10 PM</p>
+
+        <nav>
+            <a href="https://open.spotify.com/user/31dnhxjeczwde6o2utgkhneybl24?si=7132752e2e224c24">Spotify</a>
+            <a href="https://www.youtube.com/@danyelAJ">YouTube</a>
+        </nav>
+    </aside>
+</main>
+
+<footer>
+    <p>© 2026 - RetroVibe FM</p>
+    <nav>
+        <a href="https://www.instagram.com/dani_za31?igsh=MXV4M3lucWx5MW5rcA==">Instagram</a>
+        <a href="https://web.facebook.com/danny.acostajuarez?_rdc=1&_rdr#">Facebook</a>
+    </nav>
+</footer>
+
+</body>
+</html>
